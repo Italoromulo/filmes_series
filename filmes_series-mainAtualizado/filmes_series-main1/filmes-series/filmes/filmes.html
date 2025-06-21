@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="shortcut icon" href="IRIS_ICO.ico" type="image/x-icon">
+  <title>Iris - Filmes</title>
+  <link rel="stylesheet" href="filmes.css">
+</head>
+<body>
+  <header>
+    <div class="logo">IRIS</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="nos.html">Sobre Nós</a></li>
+        <li><a href="login.html">Planos</a></li>
+        <li class="dropdown">
+          <a href="#">Gêneros ▼</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Ação</a></li>
+            <li><a href="#">Comédia</a></li>
+            <li><a href="#">Drama</a></li>
+            <li><a href="#">Terror</a></li>
+            <li><a href="#">Ficção Científica</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    
+    <label class="search-label">
+      <input type="text" name="text" class="input" required="" placeholder="Pesquisar...">
+      <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 512 512" xml:space="preserve">
+        <g>
+          <path d="M55.146 51.887 41.588 37.786A22.926 22.926 0 0 0 46.984 23c0-12.682-10.318-23-23-23s-23 10.318-23 23 10.318 23 23 23c4.761 0 9.298-1.436 13.177-4.162l13.661 14.208c.571.593 1.339.92 2.162.92.779 0 1.518-.297 2.079-.837a3.004 3.004 0 0 0 .083-4.242zM23.984 6c9.374 0 17 7.626 17 17s-7.626 17-17 17-17-7.626-17-17 7.626-17 17-17z" fill="currentColor" data-original="#000000" class=""></path>
+        </g>
+      </svg>
+    </label>
+  </header>
+    
+</header>
+
+    
+    <div class="EmAlta">
+      <h2>Filmes Em Destaque</h2>
+    </div>
+
+ <!-- Modal do filme Interstellar -->
+<div class="janela-modal" id="modalInterstellar">
+  <div class="modal">
+    <button class="fechar" id="fecharInterstellar">&times;</button>
+    
+
+    <div class="img-modal">
+      <img src="./img/interstellar_img.webp" alt="Interstellar">
+    </div>
+
+    <h2 class="nomefilme">Interstellar</h2>
+    
+    <p class="descricao_filme">
+      As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.
+    </p>
+    
+    <a href="https://www.youtube.com/watch?v=zSWdZVtXT7E" target="_blank" class="botao-trailer">Assistir Trailer</a>
+    <a href="link-da-pagina-do-filme.html" target="_blank" class="botao-filme">Ir para o filme</a>
+  </div>
+</div>
+
+  <!-- Modal do filme Vingadores: Ultimato -->
+  <div class="janela-modal" id="modalVingadores">
+    <div class="modal">
+      <button class="fechar" data-fechar="modalVingadores">&times;</button>
+      <div class="img-modal">
+        <img src="./img/vingadores_ultimato.webp" alt="Vingadores: Ultimato">
+      </div>
+      <h2 class="nomefilme">Vingadores: Ultimato</h2>
+      <p class="descricao_filme">
+        Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco.
+      </p>
+      <div style="text-align:center; margin-top: 20px;">
+        <a href="https://www.youtube.com/watch?v=TcMBFSGVi1c" target="_blank" 
+           style="display:inline-block; padding: 12px 24px; background: #0099ff; color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
+          Assistir Trailer
+        </a>
+      <a href="link-da-pagina-do-filme.html" target="_blank" class="botao-filme">Ir para o filme</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal do filme The Batman -->
+  <div class="janela-modal" id="modalBatman">
+    <div class="modal">
+      <button class="fechar" data-fechar="modalBatman">&times;</button>
+      <div class="img-modal">
+        <img src="./img/the_batman.avif" alt="The Batman">
+      </div>
+      <h2 class="nomefilme">The Batman</h2>
+      <p class="descricao_filme">
+        Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante solitário se estabelece como a personificação da vingança para a população.
+      </p>
+      <div style="text-align:center; margin-top: 20px;">
+        <a href="https://www.youtube.com/watch?v=mqqft2x_Aa4" target="_blank" 
+           style="display:inline-block; padding: 12px 24px; background: #0099ff; color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
+          Assistir Trailer
+        </a>
+      <a href="link-da-pagina-do-filme.html" target="_blank" class="botao-filme">Ir para o filme</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal dos filmes Recomendados -->
+  
+  <div class="janela-modal" id="modalOppenheimer">
+    <div class="modal">
+      <button class="fechar" data-fechar="modalOppenheimer">&times;</button>
+      <div class="img-modal">
+        <img src="img/openheimer.jpg" alt="Oppenheimer">
+      </div>
+      <h2 class="nomefilme">Oppenheimer</h2>
+      <p class="descricao_filme">
+        A biografia do físico J. Robert Oppenheimer, o "pai da bomba atômica", focando nos eventos durante o Projeto Manhattan.
+      </p>
+      <div style="text-align:center; margin-top: 20px;">
+        <a href="https://www.youtube.com/watch?v=3PkkHsuMrho" target="_blank" 
+           style="display:inline-block; padding: 12px 24px; background: #0099ff; color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
+          Assistir Trailer
+        </a>
+      <a href="link-da-pagina-do-filme.html" target="_blank" class="botao-filme">Ir para o filme</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="janela-modal" id="modalCoringa">
+    <div class="modal">
+      <button class="fechar" data-fechar="modalCoringa">&times;</button>
+      <div class="img-modal">
+        <img src="img/coringa.jpg" alt="Coringa">
+      </div>
+      <h2 class="nomefilme">Coringa</h2>
+      <p class="descricao_filme">
+        Um comediante fracassado em Gotham City se transforma no notório vilão Coringa após uma série de eventos traumáticos.
+      </p>
+      <div style="text-align:center; margin-top: 20px;">
+        <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank" 
+           style="display:inline-block; padding: 12px 24px; background: #0099ff; color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
+          Assistir Trailer
+        </a>
+      <a href="link-da-pagina-do-filme.html" target="_blank" class="botao-filme">Ir para o filme</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="janela-modal" id="modalClubeDaLuta">
+    <div class="modal">
+      <button class="fechar" data-fechar="modalClubeDaLuta">&times;</button>
+      <div class="img-modal">
+        <img src="img/clube da luta.webp" alt="Clube da Luta">
+      </div>
+      <h2 class="nomefilme">Clube da Luta</h2>
+      <p class="descricao_filme">
+        Um homem insone forma um clube de luta clandestino que rapidamente se transforma em algo muito maior e mais perigoso.
+      </p>
+      <div style="text-align:center; margin-top: 20px;">
+        <a href="https://www.youtube.com/watch?v=SUXWAEX2jlg" target="_blank" 
+           style="display:inline-block; padding: 12px 24px; background: #0099ff; color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
+          Assistir Trailer
+        </a>
+      <a href="link-da-pagina-do-filme.html" target="_blank" class="botao-filme">Ir para o filme</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="janela-modal" id="modalAEntidade">
+    <div class="modal">
+      <button class="fechar" data-fechar="modalAEntidade">&times;</button>
+      <div class="img-modal">
+        <img src="img/entidade.jpg" alt="A Entidade">
+      </div>
+      <h2 class="nomefilme">A Entidade</h2>
+      <p class="descricao_filme">
+        Um escritor descobre fitas que mostram a presença de uma entidade sobrenatural aterrorizando uma família.
+      </p>
+      <div style="text-align:center; margin-top: 20px;">
+        <a href="https://www.youtube.com/watch?v=VYhXvY7RmKo" target="_blank" 
+           style="display:inline-block; padding: 12px 24px; background: #0099ff; color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
+          Assistir Trailer
+        </a>
+      <a href="link-da-pagina-do-filme.html" target="_blank" class="botao-filme">Ir para o filme</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal dos filmes Populares -->
+  <div class="janela-modal" id="modalRio">
+    <div class="modal">
+      <button class="fechar" data-fechar="modalRio">&times;</button>
+      <div class="img-modal">
+        <img src="img/rio.jpg" alt="Rio">
+      </div>
+      <h2 class="nomefilme">Rio</h2>
+      <p class="descricao_filme">
+        Uma arara domesticada embarca em uma aventura ao lado de pássaros selvagens na vibrante cidade do Rio de Janeiro.
+      </p>
+      <div style="text-align:center; margin-top: 20px;">
+        <a href="https://www.youtube.com/watch?v=Rbm6GXllBiw" target="_blank" 
+           style="display:inline-block; padding: 12px 24px; background: #0099ff; color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
+          Assistir Trailer
+        </a>
+      <a href="link-da-pagina-do-filme.html" target="_blank" class="botao-filme">Ir para o filme</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="janela-modal" id="modalAnabelle">
+    <div class="modal">
+      <button class="fechar" data-fechar="modalAnabelle">&times;</button>
+      <div class="img-modal">
+        <img src="img/anabelle.webp" alt="Anabelle">
+      </div>
+      <h2 class="nomefilme">Anabelle</h2>
+      <p class="descricao_filme">
+        Uma boneca possuída causa eventos sobrenaturais aterrorizantes em uma família.
+      </p>
+      <div style="text-align:center; margin-top: 20px;">
+        <a href="https://www.youtube.com/watch?v=Yu9DLh2d7uI" target="_blank" 
+           style="display:inline-block; padding: 12px 24px; background: #0099ff; color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
+          Assistir Trailer
+        </a>
+      <a href="link-da-pagina-do-filme.html" target="_blank" class="botao-filme">Ir para o filme</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="janela-modal" id="modalMatrix">
+    <div class="modal">
+      <button class="fechar" data-fechar="modalMatrix">&times;</button>
+      <div class="img-modal">
+        <img src="img/matrix.jpg" alt="Matrix">
+      </div>
+      <h2 class="nomefilme">Matrix</h2>
+      <p class="descricao_filme">
+        Um hacker descobre que a realidade é uma simulação controlada por máquinas e se junta à resistência para libertar a humanidade.
+      </p>
+      <div style="text-align:center; margin-top: 20px;">
+        <a href="https://www.youtube.com/watch?v=vKQi3bBA1y8" target="_blank" 
+           style="display:inline-block; padding: 12px 24px; background: #0099ff; color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
+          Assistir Trailer
+        </a>
+      <a href="link-da-pagina-do-filme.html" target="_blank" class="botao-filme">Ir para o filme</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="janela-modal" id="modalHomemAranha">
+    <div class="modal">
+      <button class="fechar" data-fechar="modalHomemAranha">&times;</button>
+      <div class="img-modal">
+        <img src="img/Homem-Aranha-Sem-Volta-Para-Casa.webp" alt="Homem Aranha">
+      </div>
+      <h2 class="nomefilme">Homem Aranha</h2>
+      <p class="descricao_filme">
+        Peter Parker luta para restaurar sua identidade após ser exposto ao multiverso, enfrentando velhos e novos inimigos.
+      </p>
+      <div style="text-align:center; margin-top: 20px;">
+        <a href="https://www.youtube.com/watch?v=JfVOs4VSpmA" target="_blank" 
+           style="display:inline-block; padding: 12px 24px; background: #0099ff; color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
+          Assistir Trailer
+        </a>
+      <a href="link-da-pagina-do-filme.html" target="_blank" class="botao-filme">Ir para o filme</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="janela-modal" id="modalJurassicWorld">
+    <div class="modal">
+      <button class="fechar" data-fechar="modalJurassicWorld">&times;</button>
+      <div class="img-modal">
+        <img src="img/jurassic world.jpg" alt="Jurassic World: Dominion">
+      </div>
+      <h2 class="nomefilme">Jurassic World: Dominion</h2>
+      <p class="descricao_filme">
+        O equilíbrio entre humanos e dinossauros é ameaçado, levando a uma aventura cheia de ação para proteger ambos.
+      </p>
+      <div style="text-align:center; margin-top: 20px;">
+        <a href="https://www.youtube.com/watch?v=fb5ELWi-ekk" target="_blank" 
+           style="display:inline-block; padding: 12px 24px; background: #0099ff; color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
+          Assistir Trailer
+        </a>
+      <a href="link-da-pagina-do-filme.html" target="_blank" class="botao-filme">Ir para o filme</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="janela-modal" id="modalStarWarsIII">
+    <div class="modal">
+      <button class="fechar" data-fechar="modalStarWarsIII">&times;</button>
+      <div class="img-modal">
+        <img src="img/star wars III.jpg" alt="Star Wars EP III">
+      </div>
+      <h2 class="nomefilme">Star Wars EP III</h2>
+      <p class="descricao_filme">
+        O capítulo final da transformação de Anakin Skywalker em Darth Vader e a queda da República.
+      </p>
+      <div style="text-align:center; margin-top: 20px;">
+        <a href="https://www.youtube.com/watch?v=5UnjrG_N8hU" target="_blank" 
+           style="display:inline-block; padding: 12px 24px; background: #0099ff; color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
+          Assistir Trailer
+        </a>
+      <a href="link-da-pagina-do-filme.html" target="_blank" class="botao-filme">Ir para o filme</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="janela-modal" id="modalVelozesEFuriosos">
+    <div class="modal">
+      <button class="fechar" data-fechar="modalVelozesEFuriosos">&times;</button>
+      <div class="img-modal">
+        <img src="img/poster-resmi-fast-x-1.jpg" alt="Velozes e Furiosos 10">
+      </div>
+      <h2 class="nomefilme">Velozes e Furiosos 10</h2>
+      <p class="descricao_filme">
+        Dom Toretto enfrenta novos desafios e ameaças nesta nova aventura cheia de velocidade e ação.
+      </p>
+      <div style="text-align:center; margin-top: 20px;">
+        <a href="https://www.youtube.com/watch?v=Oa3-1NuPcsc" target="_blank" 
+           style="display:inline-block; padding: 12px 24px; background: #0099ff; color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
+          Assistir Trailer
+        </a>
+      <a href="link-da-pagina-do-filme.html" target="_blank" class="botao-filme">Ir para o filme</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="janela-modal" id="modalSexta13">
+    <div class="modal">
+      <button class="fechar" data-fechar="modalSexta13">&times;</button>
+      <div class="img-modal">
+        <img src="img/sexta13.webp" alt="Sexta-Feira 13">
+      </div>
+      <h2 class="nomefilme">Sexta-Feira 13</h2>
+      <p class="descricao_filme">
+        Jovens enfrentam o assassino Jason Voorhees em um acampamento amaldiçoado.
+      </p>
+      <div style="text-align:center; margin-top: 20px;">
+        <a href="https://www.youtube.com/watch?v=7i1dH9cOQ-U" target="_blank" 
+           style="display:inline-block; padding: 12px 24px; background: #0099ff; color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
+          Assistir Trailer
+        </a>
+      <a href="link-da-pagina-do-filme.html" target="_blank" class="botao-filme">Ir para o filme</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="janela-modal" id="modalDeadpoolWolverine">
+    <div class="modal">
+      <button class="fechar" data-fechar="modalDeadpoolWolverine">&times;</button>
+      <div class="img-modal">
+        <img src="img/deadpool e wolverine.jpg" alt="Deadpool & Wolverine">
+      </div>
+      <h2 class="nomefilme">Deadpool & Wolverine</h2>
+      <p class="descricao_filme">
+        Aventura irreverente de dois anti-heróis em missões caóticas e engraçadas.
+      </p>
+      <div style="text-align:center; margin-top: 20px;">
+        <a href="https://www.youtube.com/watch?v=FXSJ_-5_rWI" target="_blank" 
+           style="display:inline-block; padding: 12px 24px; background: #0099ff; color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
+          Assistir Trailer
+        </a>
+      <a href="link-da-pagina-do-filme.html" target="_blank" class="botao-filme">Ir para o filme</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="janela-modal" id="modalPecadores">
+    <div class="modal">
+      <button class="fechar" data-fechar="modalPecadores">&times;</button>
+      <div class="img-modal">
+        <img src="img/pecadores.webp" alt="Pecadores">
+      </div>
+      <h2 class="nomefilme">Pecadores</h2>
+      <p class="descricao_filme">
+        Um suspense intrigante envolvendo mistérios e segredos em uma pequena cidade.
+      </p>
+      <div style="text-align:center; margin-top: 20px;">
+        <a href="https://www.youtube.com/watch?v=INSERT_TRAILER_LINK" target="_blank" 
+           style="display:inline-block; padding: 12px 24px; background: #0099ff; color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
+          Assistir Trailer
+        </a>
+      <a href="link-da-pagina-do-filme.html" target="_blank" class="botao-filme">Ir para o filme</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="filme">
+      <div class="filme-img-container"> 
+        <img src="./img/interstellar_img.webp" alt="Filme 1" data-modal="modalInterstellar" class="open-modal">
+        <div class="play-icon open-modal" data-modal="modalInterstellar">▶</div>
+      </div>
+      <h2>Interstellar</h2>
+      <p>As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.</p>
+    </div>
+
+    <div class="filme">
+      <div class="filme-img-container">
+        <img src="./img/vingadores_ultimato.webp" alt="Filme 2" data-modal="modalVingadores" class="open-modal">
+        <div class="play-icon open-modal" data-modal="modalVingadores">▶</div>
+      </div>
+      <div>
+        <h2>Vingadores: Ultimato</h2>
+      </div>
+      <p>Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco.</p>
+    </div>
+
+    <div class="filme">
+      <div class="filme-img-container">
+        <img src="./img/the_batman.avif" alt="Filme 3" data-modal="modalBatman" class="open-modal">
+        <div class="play-icon open-modal" data-modal="modalBatman">▶</div>
+      </div>
+      <h2>The Batman</h2>
+      <p>Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante solitário se estabelece como a personificação da vingança para a população.</p>
+    </div>
+  </div>
+
+  <!-- Filmes Recomendados -->
+  <div class="titulo_recomendado">
+    <h2>Filmes Recomendados</h2>
+  </div>
+  <section class="recomendados">
+    <div class="recomendados-container">
+
+      <div class="filme">
+        <div class="filme-img-container">
+          <img src="img/openheimer.jpg" alt="Filme recomendado 1" data-modal="modalOppenheimer" class="open-modal">
+          <div class="play-icon open-modal" data-modal="modalOppenheimer">▶</div>
+        </div>
+        <h2 class="nome_filme">Oppenheimer</h2>
+      </div>
+
+      <div class="filme">
+        <div class="filme-img-container">
+          <img src="img/coringa.jpg" alt="Filme recomendado 2" data-modal="modalCoringa" class="open-modal">
+          <div class="play-icon open-modal" data-modal="modalCoringa">▶</div>
+        </div>
+        <h2>Coringa</h2>
+      </div> 
+
+      <div class="filme">
+        <div class="filme-img-container">
+          <img src="img/clube da luta.webp" alt="Filme recomendado 3" data-modal="modalClubeDaLuta" class="open-modal">
+          <div class="play-icon open-modal" data-modal="modalClubeDaLuta">▶</div>
+        </div>
+        <h2>Clube da Luta</h2>
+      </div> 
+
+      <div class="filme">
+        <div class="filme-img-container">
+          <img src="img/entidade.jpg" alt="Filme recomendado 4" data-modal="modalAEntidade" class="open-modal">
+          <div class="play-icon open-modal" data-modal="modalAEntidade">▶</div>
+        </div>
+        <h2>A Entidade</h2>
+      </div> 
+
+    </div>
+  </section>
+
+  <!-- Filmes Populares -->
+  <div class="titulo-populares">
+    <h2>Filmes Populares</h2>
+  </div>
+  <section class="populares">
+    <div class="populares-container">  
+      <div class="filme">
+        <div class="filme-img-container">
+          <img src="img/rio.jpg" alt="Filme popular 1" data-modal="modalRio" class="open-modal">
+          <div class="play-icon open-modal" data-modal="modalRio">▶</div>
+        </div>
+        <div class="nome_filme">
+          <h2>Rio</h2>
+        </div>
+      </div>
+
+      <div class="filme">
+        <div class="filme-img-container">
+          <img src="img/anabelle.webp" alt="Filme popular 2" data-modal="modalAnabelle" class="open-modal">
+          <div class="play-icon open-modal" data-modal="modalAnabelle">▶</div>
+        </div>
+        <h2>Anabelle</h2>
+      </div>
+
+      <div class="filme">
+        <div class="filme-img-container">
+          <img src="img/matrix.jpg" alt="Filme popular 3" data-modal="modalMatrix" class="open-modal">
+          <div class="play-icon open-modal" data-modal="modalMatrix">▶</div>
+        </div>
+        <h2>Matrix</h2>
+      </div>
+
+      <div class="filme">
+        <div class="filme-img-container">
+          <img src="img/Homem-Aranha-Sem-Volta-Para-Casa.webp" alt="Filme popular 4" data-modal="modalHomemAranha" class="open-modal">
+          <div class="play-icon open-modal" data-modal="modalHomemAranha">▶</div>
+        </div>
+        <h2>Homem Aranha</h2>
+      </div>
+
+      <div class="filme">
+        <div class="filme-img-container">
+          <img src="img/jurassic world.jpg" alt="Filme popular 5" data-modal="modalJurassicWorld" class="open-modal">
+          <div class="play-icon open-modal" data-modal="modalJurassicWorld">▶</div>
+        </div>
+        <h2>Jurassic World: Dominion</h2>
+      </div>
+
+      <div class="filme">
+        <div class="filme-img-container">
+          <img src="img/star wars III.jpg" alt="Filme popular 6" data-modal="modalStarWarsIII" class="open-modal">
+          <div class="play-icon open-modal" data-modal="modalStarWarsIII">▶</div>
+        </div>
+        <h2>Star Wars EP III</h2>
+      </div>
+
+      <div class="filme">
+        <div class="filme-img-container">
+          <img src="img/poster-resmi-fast-x-1.jpg" alt="Filme popular 7" data-modal="modalVelozesEFuriosos" class="open-modal">
+          <div class="play-icon open-modal" data-modal="modalVelozesEFuriosos">▶</div>
+        </div>
+        <h2>Velozes e Furiosos 10</h2>
+      </div>
+
+      <div class="filme">
+        <div class="filme-img-container">
+          <img src="img/sexta13.webp" alt="Filme popular 8" data-modal="modalSexta13" class="open-modal">
+          <div class="play-icon open-modal" data-modal="modalSexta13">▶</div>
+        </div>
+        <h2>Sexta-Feira 13 </h2>
+      </div>    
+
+      <div class="filme">
+        <div class="filme-img-container">
+          <img src="img/deadpool e wolverine.jpg" alt="Filme popular 9" data-modal="modalDeadpoolWolverine" class="open-modal">
+          <div class="play-icon open-modal" data-modal="modalDeadpoolWolverine">▶</div>
+        </div>
+        <h2>Deadpool & Wolverine</h2>
+      </div>
+
+      <div class="filme">
+        <div class="filme-img-container">
+          <img src="img/pecadores.webp" alt="Filme popular 10" data-modal="modalPecadores" class="open-modal">
+          <div class="play-icon open-modal" data-modal="modalPecadores">▶</div>
+        </div>
+        <h2>Pecadores</h2>
+      </div>  
+    </div>
+  </section>
+
+  <!-- Scripts para abrir e fechar modais -->
+  <script>
+    const openModalButtons = document.querySelectorAll('.open-modal');
+    const closeModalButtons = document.querySelectorAll('.fechar');
+
+    openModalButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const modalId = button.getAttribute('data-modal');
+        const modal = document.getElementById(modalId);
+        if(modal){
+          modal.style.display = 'flex';
+          document.body.style.overflow = 'hidden'; // trava scroll ao abrir
+        }
+      });
+    });
+
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const modalId = button.getAttribute('data-fechar');
+        const modal = document.getElementById(modalId);
+        if(modal){
+          modal.style.display = 'none';
+          document.body.style.overflow = ''; // libera scroll ao fechar
+        }
+      });
+    });
+
+    // Fechar modal ao clicar fora da área da modal
+    const modals = document.querySelectorAll('.janela-modal');
+    modals.forEach(modal => {
+      modal.addEventListener('click', (e) => {
+        if(e.target === modal){
+          modal.style.display = 'none';
+          document.body.style.overflow = '';
+        }
+      });
+    });
+  </script>
+
+<footer>
+<p>© 2025 IRIS. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
